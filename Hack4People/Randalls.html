@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UShelf Item Search</title>
+        <style>
+            h1 
+            {
+                margin: 50px auto; 
+                text-align: center; 
+                color: maroon; 
+                font-size: 5em; 
+                transition: 0.5s; 
+                font-family: Arial, Helvetica, sans-serif; 
+                text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 
+                0 3px 0 #ccc, 0 4px 0 #ccc, 
+                0 5px 0 #ccc, 0 6px 0 #ccc, 
+                0 7px 0 #ccc, 0 8px 0 #ccc, 
+                0 9px 0 #ccc, 0 10px 0 #ccc, 
+                0 11px 0 #ccc, 0 12px 0 #ccc, 
+                0 20px 30px rgba(0, 0, 0, 0.5); 
+            }
+         a 
+         {
+             color: rgb(255, 255, 255);
+             float: right;
+             position: relative; top: -100px
+         }
+        
+        #inputBox 
+        {
+           text-align:center;
+           position:fixed; top: 400px; left: 500px;
+
+
+        }
+        body
+            {
+                margin:0;
+                padding:0;
+                width: 1000px;
+                height: 1000px;
+                background-color:indianred;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <h1> Randalls Item Search</h1>
+        <a href = "HomePage.html"> Home Page</a>
+        <form action ="https://www.randalls.com/shop/search-results.html?">
+            <div id="inputBox">
+                <input type ="text" placeholder="Item search" name="q">
+                <input type ="submit" name="search button" value="search">
+            </div>
+        </form>
+        
+    </body>
+</html>
